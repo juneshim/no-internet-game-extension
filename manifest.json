@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Ganadi Runner",
+  "version": "1.0.0",
+  "description": "Chrome offline page replacement with Ganadi Runner game",
+  "permissions": [
+    "webNavigation",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "game/*",
+        "assets/**/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "assets/themes/default/icon/16.jpg",
+    "48": "assets/themes/default/icon/48.jpg",
+    "128": "assets/themes/default/icon/128.jpg"
+  }
+}
+

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <title>no internet</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <script src="asset-loader.js"></script>
+    <script src="index.js"></script>
+    <script src="init.js"></script>
+</head>
+
+<body id="t" class="offline">
+    <div id="messageBox" class="sendmessage" style="display: none;">
+         <div class="niokbutton" id="okButton"></div>
+    </div>
+    <div id="main-frame-error" class="interstitial-wrapper">
+        <div id="main-content">
+            <div class="icon icon-offline" alt=""></div>
+            <div id="error-message">
+                <h1 id="error-title">인터넷 연결 없음</h1>
+                <p id="error-description">다음 방법을 시도해 보세요.</p>
+                <ul id="error-suggestions">
+                    <li>네트워크 케이블, 모뎀, 라우터 확인</li>
+                    <li>Wi-Fi에 다시 연결</li>
+                </ul>
+                <p id="error-code">ERR_INTERNET_DISCONNECTED</p>
+            </div>
+        </div>
+        <div id="offline-resources">
+            <!-- Assets will be loaded dynamically by AssetLoader -->
+        </div>
+    </div>
+</body>
+    
+</html>
+
