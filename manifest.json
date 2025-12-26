@@ -22,9 +22,9 @@
     }
   ],
   "icons": {
-    "16": "assets/themes/default/icon/16.jpg",
-    "48": "assets/themes/default/icon/48.jpg",
-    "128": "assets/themes/default/icon/128.jpg"
+    "16": "assets/themes/default/icon/16.png",
+    "48": "assets/themes/default/icon/48.png",
+    "128": "assets/themes/default/icon/128.png"
   }
 }
 
