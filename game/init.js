@@ -1,3 +1,9 @@
+/**
+ * Ganadi Runner - Custom Implementation
+ * Copyright (c) 2025 June Shim
+ * Licensed under CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0 International)
+ */
+
 // Initialize keyboard event handlers
 (function() {
     'use strict';

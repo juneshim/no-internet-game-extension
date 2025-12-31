@@ -1,4 +1,8 @@
 /**
+ * Ganadi Runner - Custom Implementation
+ * Copyright (c) 2025 June Shim
+ * Licensed under CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0 International)
+ * 
  * AssetLoader - Dynamic asset loading system for T-Rex Runner
  * Supports theme-based asset management with folder structure
  */
