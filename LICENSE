@@ -1,8 +1,8 @@
-# License Information for Ganadi Runner
+License Information for Ganadi Runner
 
 This project contains code under two different licenses:
 
-## 1. Custom Implementation & Assets (CC BY-NC 4.0)
+1. Custom Implementation & Assets (CC BY-NC 4.0)
 
 The following parts of this project are licensed under the Creative Commons Attribution-NonCommercial 4.0 International Public License:
 - Chrome Extension logic (`manifest.json`, `background.js`)
@@ -24,7 +24,7 @@ Full license text available at: https://creativecommons.org/licenses/by-nc/4.0/
 
 ---
 
-## 2. Original Game Engine (BSD 3-Clause License)
+2. Original Game Engine (BSD 3-Clause License)
 
 The core game engine and styles (`game/index.js`, `game/index.css`) are based on 't-rex-runner-gh-pages' and are licensed under the BSD 3-Clause License.
 
